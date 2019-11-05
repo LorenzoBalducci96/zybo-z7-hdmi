@@ -53,6 +53,20 @@ static const VideoMode VMODE_640x480 = {
 	/* freq */   25.0
 };
 
+static const VideoMode VMODE_800x480 = {
+	/* label */  "800x480@60Hz",
+	/* width */  800,
+	/* height */ 480,
+	/* hps */    840,
+	/* hpe */    888,
+	/* hmax */   928,
+	/* hpol */   0,
+	/* vps */    493,
+	/* vpe */    496,
+	/* vmax */   525,
+	/* vpol */   0,
+	/* freq */   32.0
+};
 
 static const VideoMode VMODE_800x600 = {
 	/* label */  "800x600@60Hz",
